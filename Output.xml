@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>18000</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Output">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Row>
+    <Cell><Data ss:Type="String">Lambda</Data></Cell>
+    <Cell><Data ss:Type="String">Var1</Data></Cell>
+    <Cell><Data ss:Type="String"> Var10</Data></Cell>
+    <Cell><Data ss:Type="String"> Var20</Data></Cell>
+    <Cell><Data ss:Type="String"> Var50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">1.100855986</Data></Cell>
+    <Cell><Data ss:Type="Number">1.56168123</Data></Cell>
+    <Cell><Data ss:Type="Number">2.0976311320000001</Data></Cell>
+    <Cell><Data ss:Type="Number">3.7310168309999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.208252165</Data></Cell>
+    <Cell><Data ss:Type="Number">2.2073819449999998</Data></Cell>
+    <Cell><Data ss:Type="Number">3.28860829</Data></Cell>
+    <Cell><Data ss:Type="Number">6.5941908290000004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.335496934</Data></Cell>
+    <Cell><Data ss:Type="Number">2.9420426320000002</Data></Cell>
+    <Cell><Data ss:Type="Number">4.8591963610000004</Data></Cell>
+    <Cell><Data ss:Type="Number">10.00714368</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">1.4934431939999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3.8760032240000002</Data></Cell>
+    <Cell><Data ss:Type="Number">6.6117729470000004</Data></Cell>
+    <Cell><Data ss:Type="Number">14.850947489999999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell><Data ss:Type="Number">1.7181009860000001</Data></Cell>
+    <Cell><Data ss:Type="Number">4.9753576309999996</Data></Cell>
+    <Cell><Data ss:Type="Number">9.0075653290000002</Data></Cell>
+    <Cell><Data ss:Type="Number">19.932001230000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell><Data ss:Type="Number">2.0478914499999998</Data></Cell>
+    <Cell><Data ss:Type="Number">7.3692919740000002</Data></Cell>
+    <Cell><Data ss:Type="Number">13.13077399</Data></Cell>
+    <Cell><Data ss:Type="Number">30.86369341</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5831235810000002</Data></Cell>
+    <Cell><Data ss:Type="Number">10.21316961</Data></Cell>
+    <Cell><Data ss:Type="Number">17.831307890000001</Data></Cell>
+    <Cell><Data ss:Type="Number">40.317580579999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.8</Data></Cell>
+    <Cell><Data ss:Type="Number">3.6517822839999998</Data></Cell>
+    <Cell><Data ss:Type="Number">16.421907359999999</Data></Cell>
+    <Cell><Data ss:Type="Number">27.931762169999999</Data></Cell>
+    <Cell><Data ss:Type="Number">69.352948819999995</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.9</Data></Cell>
+    <Cell><Data ss:Type="Number">7.1367841099999998</Data></Cell>
+    <Cell><Data ss:Type="Number">32.446432659999999</Data></Cell>
+    <Cell><Data ss:Type="Number">74.739797569999993</Data></Cell>
+    <Cell><Data ss:Type="Number">170.86771830000001</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
