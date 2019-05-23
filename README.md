@@ -14,5 +14,5 @@ Main.java
 Compile them as: javac filename.java
 Run the code with the following command:
 java Main
-# output
+# Output
 The code outputs mean response times for four variances (1, 10,20,50) under different lambdas into two different csv files for the 2 different experiments.
