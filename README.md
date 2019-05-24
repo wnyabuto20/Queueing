@@ -1,5 +1,5 @@
 # Queueing-Theory
-Explores how various parameters (like arrival rate lambda , service rate Mew) of exponentially generated jobs affect mean response time of a server.
+Explores how various parameters (like arrival rate -(lambda)generated exponentially and hyperexponentially, service rate (Mew)) of exponentially generated jobs affect mean response time of a server.
 A write up that gives the project description,experiments,findings and conclusions is among the files in this repository.
 # Instructions
 Clone the repository and delete the output files (output.csv and output1.csv) or alternatively download everything but the output files. When you run the code,fresh files will be generated.The generated files have the same names as our sample outputs so deleting the attached sample output files ensures we avoid errors that might arise from attempting to generate files with names similar to those of the sample output files.
