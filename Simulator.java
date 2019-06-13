@@ -41,7 +41,7 @@ public class Simulator{
         }
         return jobtoAd;
     }
-    /** takes in the parameters given and outputs an arraylist of response times.
+    /** takes in the parameters given and outputs a mean response times.
      * mean response time can be found by getting the average of these response times.
      * @param lambda1
      * @param p
@@ -50,7 +50,7 @@ public class Simulator{
      * @return
      */
     public double simulate(double lambda1,double p, double mew1, double mew2){
-        ArrayList<Double> responseTimes = new ArrayList<Double>();
+        //ArrayList<Double> responseTimes = new ArrayList<Double>(); 
         double sumOfResponseTimes = 0.0;
         double meanResponseTime = 0.0;
         setLambda(lambda1);
@@ -105,7 +105,7 @@ public class Simulator{
                 Job tocomplete = server.inService;
                 //throwing away the first 10000
                 if(i>10000){
-                    responseTimes.add(currentTime - tocomplete.arrivalTime);
+                    //responseTimes.add(currentTime - tocomplete.arrivalTime);
                     sumOfResponseTimes += (currentTime - tocomplete.arrivalTime);
                 }
                 server.completeJob();
